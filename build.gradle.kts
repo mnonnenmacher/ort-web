@@ -11,7 +11,7 @@ plugins {
 }
 
 version = "1.0.0-SNAPSHOT"
-group = "com.example"
+group = "org.ossreviewtoolkit"
 
 repositories {
     mavenCentral()

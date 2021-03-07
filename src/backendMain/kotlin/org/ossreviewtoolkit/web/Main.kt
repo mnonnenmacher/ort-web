@@ -1,4 +1,4 @@
-package com.example
+package org.ossreviewtoolkit.web
 
 import io.ktor.application.*
 import io.ktor.features.*

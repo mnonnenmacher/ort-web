@@ -13,4 +13,4 @@ pluginManagement {
         }
     }
 }
-rootProject.name = "template-fullstack-ktor"
+rootProject.name = "ort-web"

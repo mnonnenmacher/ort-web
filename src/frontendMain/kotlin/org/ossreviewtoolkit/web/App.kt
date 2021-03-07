@@ -1,4 +1,4 @@
-package com.example
+package org.ossreviewtoolkit.web
 
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

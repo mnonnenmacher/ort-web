@@ -1,4 +1,4 @@
-package com.example
+package org.ossreviewtoolkit.web
 
 object Model {
 
