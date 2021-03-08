@@ -126,6 +126,7 @@ kotlin {
                 implementation("io.kvision:kvision-tabulator:$kvisionVersion")
                 implementation("io.kvision:kvision-pace:$kvisionVersion")
                 implementation("io.kvision:kvision-moment:$kvisionVersion")
+                implementation("io.kvision:kvision-routing-navigo-ng:$kvisionVersion")
             }
             kotlin.srcDir("build/generated-src/frontend")
         }
