@@ -4,6 +4,7 @@ pluginManagement {
         maven { url = uri("https://plugins.gradle.org/m2/") }
         mavenLocal()
     }
+
     resolutionStrategy {
         eachPlugin {
             when {
@@ -13,4 +14,5 @@ pluginManagement {
         }
     }
 }
+
 rootProject.name = "ort-web"

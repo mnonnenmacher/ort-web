@@ -1,6 +1,7 @@
 package org.ossreviewtoolkit.web
 
 import io.kvision.test.SimpleSpec
+
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
