@@ -14,6 +14,12 @@ uses [KVision](https://kvision.io/) and is based on the
 
 This is an overview of the most important Gradle tasks.
 
+### Prerequisites
+The test tasks are executed using Chrome, so Chrome should be installed. 
+If you don't want to install Chrome, change the test to use Firefox instead by changing `useChromeHeadless()` to 
+`useFirefoxHeadless` or `useSafariHeadless` in the `build.gradle.kts`.
+Otherwise, the gradle `build` task will fail. 
+
 ### Resource Processing
 * generatePotFile - Generates a `src/frontendMain/resources/i18n/messages.pot` translation template file.
 ### Compiling
